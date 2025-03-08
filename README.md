@@ -1,4 +1,4 @@
-# [Submitted to ICLR2025] Re-ranked and Reasoned Retrieval Augmented Financial Fraud Detection  
+# [Accepted at ICLR2025] Re-ranked and Reasoned Retrieval Augmented Financial Fraud Detection  
 > Official implementation of "FAR-FD: Feature Augmented Retrieval for Fraud Detection"  
 
 Abstract:
