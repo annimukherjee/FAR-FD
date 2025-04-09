@@ -14,6 +14,13 @@ Fraud detection plays a crucial role in the financial industry, preventing signi
     <img src="./resources/FAR-FD-Architecture-Diagram.png" width="90%">
 </div>
 
+## Experimental Results
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/fbdeae73-fbee-44a3-9549-34e987e5f4c4" width="55%">
+</div>
+
+
 
 
 ## 📂 Access Preprocessed Datasets
