@@ -17,9 +17,17 @@ Fraud detection plays a crucial role in the financial industry, preventing signi
 ## Experimental Results
 
 <div align="center">
-    <img src="https://github.com/user-attachments/assets/fbdeae73-fbee-44a3-9549-34e987e5f4c4" width="55%">
+    <img src="./resources/Results_Table.png" width="55%">
 </div>
 
+
+## Steps to clone and run
+
+1. Clone the repository
+2. Download dataset from kaggle (see below under Access Original Dataset)
+3. Run `0_combine_ieee_cis.ipynb` in 0_pre-process-data/resources with the kaggle dataset
+4. Using the generated `ieee-train-merged_imputed_cleaned.csv` run the `0_ieee-preprocess-dataset-split-saint.ipynb` notebook.
+5. Then run `dataset_split.ipynb` to obtain the train, validation and test splits.
 
 
 
