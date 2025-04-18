@@ -23,11 +23,12 @@ Fraud detection plays a crucial role in the financial industry, preventing signi
 
 ## Steps to clone and run
 
-1. Clone the repository
-2. Download dataset from kaggle (see below under Access Original Dataset)
-3. Run `0_combine_ieee_cis.ipynb` in 0_pre-process-data/resources with the kaggle dataset
-4. Using the generated `ieee-train-merged_imputed_cleaned.csv` run the `0_ieee-preprocess-dataset-split-saint.ipynb` notebook.
-5. Then run `dataset_split.ipynb` to obtain the train, validation and test splits.
+1. Clone the repository.
+2. Download the IEEE CIS Dataset from Kaggle ([link](https://www.kaggle.com/competitions/ieee-fraud-detection/data)) and save it in a new directory called `datasets/ieee-fraud-detection-datasets/{train/test}`. Move the `test_identity.csv` and `test_transaction.csv` into the `datasets/ieee-fraud-detection-datasets/test` and the `train_identity.csv` and `train_transaction.csv` and move it to `datasets/ieee-fraud-detection-datasets/train`.
+3. Run `0_combine_ieee_cis.ipynb` in `0_pre-process-data` with the Kaggle dataset. This will generate two dataframes in the `datasets/ieee-processed` directory named [ieee-train-merged.csv](datasets/ieee-processed/ieee-train-merged.csv) and [ieee-train-merged_imputed_cleaned.csv](datasets/ieee-processed/ieee-train-merged_imputed_cleaned.csv). We will use `ieee-train-merged_imputed_cleaned.csv` for the rest of the experiments.
+4. Now, we have to encode our dataset. We use the SAINT encoder published in [this paper](https://arxiv.org/abs/2106.01342) ([official code](https://github.com/somepago/saint)). We use the [unofficial SAINT implementation](https://github.com/ogunlao/saint?tab=readme-ov-file) for our experiments. Using the generated `ieee-train-merged_imputed_cleaned.csv` run the `0_ieee-preprocess-dataset-split-saint.ipynb` notebook.
+5. 
+6. Then run `dataset_split.ipynb` to obtain the train, validation and test splits.
 
 
 

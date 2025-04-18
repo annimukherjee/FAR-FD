@@ -1,0 +1,14 @@
+data_folder: ??
+data_paths:
+  train_csv_path: ${data.data_folder}/train_ssl.csv
+  train_y_csv_path: null
+  val_csv_path: ${data.data_folder}/val.csv
+  val_y_csv_path: null
+  test_csv_path: null
+  test_y_csv_path: null
+
+data_stats:
+  # parameters for the dataset
+  no_cat: 5
+  no_num: 177
+  cats: [1, 5, 4, 4, 59]

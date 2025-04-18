@@ -1,0 +1,6 @@
+- experiment=predict
+- experiment.model=saint
+- data=bank_sup
+- data.data_folder=/Users/annimukh/Documents/acode/iclr-/saint-unofficial/IEEE_Preprocess
+- experiment.pretrained_checkpoint=/Users/annimukh/Documents/acode/iclr-/saint-unofficial/lightning_logs/version_13/checkpoints/0-11.ckpt
+- experiment.pred_sav_path=/Users/annimukh/Documents/acode/iclr-/saint-unofficial/outputs/predictions.csv

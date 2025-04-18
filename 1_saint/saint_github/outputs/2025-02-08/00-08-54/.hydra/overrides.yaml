@@ -1,0 +1,5 @@
+- experiment=supervised
+- experiment.model=saint
+- data.data_folder=/Users/annimukh/Documents/acode/iclr-/saint-unofficial/IEEE_Preprocess
+- data=bank_sup
+- experiment.pretrained_checkpoint=/Users/annimukh/Documents/acode/iclr-/saint-unofficial/lightning_logs/version_8/checkpoints/0-1490.ckpt

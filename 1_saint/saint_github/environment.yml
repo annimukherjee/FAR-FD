@@ -1,0 +1,20 @@
+name: saint-env-new
+channels:
+  - pytorch        # Provides PyTorch and related packages
+  - conda-forge    # ARM-friendly builds for many packages
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy=1.21.0          # Newer version with ARM support
+  - pandas=1.3.0          # Compatible with newer numpy versions
+  - pytorch-lightning
+  - scikit-learn=0.24.2
+  - scipy=1.9.3           # A newer scipy version that has ARM wheels
+  - tensorboard=2.4.1
+  - tensorboard-plugin-wit=1.8.0
+  - pytorch=1.9.0         # Using PyTorch 1.9.0 (the arm64 build will be selected)
+  - torchmetrics=0.3.2
+  - torchtext=0.6.0
+  - torchvision         # Will be aligned with PyTorch version
+  - hydra-core
+  - ruamel_yaml

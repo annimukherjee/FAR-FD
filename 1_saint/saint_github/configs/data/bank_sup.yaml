@@ -1,0 +1,14 @@
+data_folder: ??
+data_paths:
+  train_csv_path: ${data.data_folder}/train.csv
+  train_y_csv_path: ${data.data_folder}/train_y.csv
+  val_csv_path: ${data.data_folder}/val.csv
+  val_y_csv_path: ${data.data_folder}/val_y.csv
+  test_csv_path: ${data.data_folder}/test.csv
+  test_y_csv_path: ${data.data_folder}/test_y.csv
+
+data_stats:
+  no_cat: 5
+  no_num: 177
+  cats: [1, 5, 4, 4, 59]
+

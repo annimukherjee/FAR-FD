@@ -1,0 +1,4 @@
+- experiment=self-supervised
+- experiment.model=saint
+- data.data_folder=/Users/annimukh/Documents/acode/iclr-/saint-unofficial/IEEE_Preprocess
+- data=bank_ssl
